@@ -1,0 +1,1169 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": 123456,
+      "email": "lattebaby2004@hotmail.com",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP3040022.JPG?alt=media&token=485f46fb-39a9-4771-bb97-4cded9d73896"
+    },
+    {
+      "id": 2,
+      "username": "test1",
+      "password": 456,
+      "email": "373619434@qq.com",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP1010025.JPG?alt=media&token=ebda5fb0-bcd1-4338-a335-ba05b6b80b79"
+    },
+    {
+      "username": "test2",
+      "password": "123",
+      "email": "qian@gmail.com",
+      "id": 3,
+      "image": null
+    },
+    {
+      "username": "test3",
+      "email": "g@gmail.com",
+      "password": "123",
+      "id": 4,
+      "image": null
+    },
+    {
+      "username": "test4",
+      "email": "mail@hotmail.com",
+      "password": "123",
+      "id": 5,
+      "image": null
+    },
+    {
+      "username": "test5",
+      "email": "qq@qq.com",
+      "password": "123",
+      "id": 6,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP1010020.JPG?alt=media&token=3f2b3b0c-99ee-43e5-a86b-d78774c07d96"
+    },
+    {
+      "username": "test6",
+      "email": "gary@gmail.com",
+      "password": "123",
+      "id": 7,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2F%E6%B9%96%E8%BE%B9%E6%89%AE%E9%85%B7.JPG?alt=media&token=0c0c07a1-ebac-47ec-9056-aab1da678559"
+    },
+    {
+      "username": "test7",
+      "email": "2@g.m",
+      "password": "1",
+      "id": 8,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP1010025.JPG?alt=media&token=e95f0fc9-e4ce-4ba2-a6ae-896eb26859f1"
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "title": "Meat"
+    },
+    {
+      "id": 2,
+      "title": "Seafood"
+    },
+    {
+      "id": 3,
+      "title": "Veggie"
+    },
+    {
+      "id": 4,
+      "title": "Sauce"
+    },
+    {
+      "id": 5,
+      "title": "Dessert"
+    },
+    {
+      "id": 6,
+      "title": "Drinks"
+    },
+    {
+      "id": 7,
+      "title": "Wheaten"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Beef",
+      "collectionId": 1
+    },
+    {
+      "id": 2,
+      "title": "Pork",
+      "collectionId": 1
+    },
+    {
+      "id": 3,
+      "title": "Lamb",
+      "collectionId": 1
+    },
+    {
+      "id": 4,
+      "title": "Poultry",
+      "collectionId": 1
+    },
+    {
+      "id": 5,
+      "title": "Fish",
+      "collectionId": 2
+    },
+    {
+      "id": 6,
+      "title": "Pawn",
+      "collectionId": 2
+    },
+    {
+      "id": 7,
+      "title": "Shellfish",
+      "collectionId": 2
+    },
+    {
+      "id": 8,
+      "title": "Veggies",
+      "collectionId": 3
+    },
+    {
+      "id": 9,
+      "title": "Sauces",
+      "collectionId": 4
+    },
+    {
+      "id": 10,
+      "title": "Cake",
+      "collectionId": 5
+    },
+    {
+      "id": 11,
+      "title": "Bread",
+      "collectionId": 5
+    },
+    {
+      "id": 12,
+      "title": "Biscuit",
+      "collectionId": 5
+    },
+    {
+      "id": 13,
+      "title": "Others",
+      "collectionId": 5
+    },
+    {
+      "id": 14,
+      "title": "Hot Drink",
+      "collectionId": 6
+    },
+    {
+      "id": 15,
+      "title": "Cold Drink",
+      "collectionId": 6
+    },
+    {
+      "id": 16,
+      "title": "Wheaten",
+      "collectionId": 7
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Fast Food"
+    },
+    {
+      "id": 2,
+      "title": "Fat Control"
+    },
+    {
+      "id": 3,
+      "title": "Spicy Food"
+    },
+    {
+      "id": 4,
+      "title": "Noddles"
+    },
+    {
+      "id": 5,
+      "title": "Grilled"
+    },
+    {
+      "id": 6,
+      "title": "Sweeties"
+    },
+    {
+      "id": 7,
+      "title": "Braised"
+    },
+    {
+      "id": 8,
+      "title": "Stir-fry"
+    },
+    {
+      "id": 10,
+      "title": "Others"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Cantonese Stir Fried Noddle 炒牛河",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Noddles",
+      "keywords": "炒河粉 牛肉",
+      "ingredients": "河粉、青菜、牛肉片",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fganchaoniuhe.jpg?alt=media&token=96de23c6-b6c1-419a-9434-752aa5019518",
+      "procedure": "<h1>1）牛肉切片用韩式牛肉酱腌制10分钟以上；</h1><h1>2）新鲜河粉用80度左右的热水泡软分开后沥干水分；</h1><h1>3）调汁：酱油、耗油、糖、水的比例为1：1：1：1？</h1><p><br></p><h1>4）先炒熟牛肉片，盛起备用；</h1><h1>5）炒熟青菜，也盛起备用；</h1><h1>6）热锅多放油，将河粉放入后，先煎一下，不着急煸炒，再翻面煎一下； 然后用筷子煸炒均匀，倒入酱油，炒匀，再放入备好的牛肉片和青菜，炒匀即可</h1>",
+      "createTime": 1691108469786,
+      "publishState": 1,
+      "publishTime": 1691108469786,
+      "favoredBy": [],
+      "rates": [
+        4
+      ],
+      "comments": [],
+      "id": 1
+    },
+    {
+      "title": "Beef Sirloin 广式牛腩牛杂",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Braised",
+      "keywords": "牛筋腩 牛腩 牛杂",
+      "ingredients": "1. 牛腩 牛筋 或者牛筋腩，或者牛杂\n2. 柱侯酱 3勺 肉酱 2勺 耗油 2勺 红烧酱油 3-4勺  红腐乳汁2勺\n3. 冰糖 花雕酒\n4. 姜 八角 香叶 桂皮 草果 甘草片 肉豆蔻\n5. 白萝卜",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fniuza.jpg?alt=media&token=61cceb82-5bf4-4e30-af80-7de58b2b3d28",
+      "procedure": "<ol><li>肉类切大块焯水备用；</li><li>油锅爆香姜片，把柱侯酱和肉酱先炒香；</li><li>放入焯过水的肉块，中火不断翻炒至香味飘出，加入花雕酒；</li><li>放入冰糖，炒至冰糖融化；</li><li>倒入清水刚好和肉类持平；</li><li>加入酱油、蚝油和腐乳汁，以及香料；煮大约一个半小时（原菜谱是先煮40分钟，然后关火焖30分钟，再开火煮40分钟）。</li><li>上锅前20分钟左右加入白萝卜块。</li></ol>",
+      "createTime": 1691459444336,
+      "publishState": 1,
+      "publishTime": 1691459444336,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 2
+    },
+    {
+      "title": "Beef Shank Noodle 牛腱子面",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Noddles",
+      "keywords": "牛腱子 面",
+      "ingredients": "1. 牛腱子\n2. 花椒、八角、香叶、小茴香、桂皮、干辣椒\n3. 葱姜、料酒、生抽、老抽、冰糖",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fbeefnoodle.jpg?alt=media&token=543968e6-7551-4e34-86f1-c273cab4a98f",
+      "procedure": "<ol><li>把所有的材料倒在锅里，加上清水至没过牛腱子，大火烧开后转小火炖一个半小时，至筷子能插透牛腱子；</li><li>面条煮熟捞出备用；</li><li>高汤中下青菜，然后连汤带菜倒在面条上，摆上切片的牛腱子，淋上一勺煮牛腱子的肉汤即可。</li></ol>",
+      "createTime": 1690459449071,
+      "publishState": 1,
+      "publishTime": 1690459449071,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 3
+    },
+    {
+      "title": "French-style Macaron 法式马卡龙",
+      "author": "admin",
+      "category": "Biscuit",
+      "group": "Sweeties",
+      "keywords": "马卡龙",
+      "ingredients": "杏仁粉+糖粉\n蛋清+糖",
+      "procedure": "<ol><li>杏仁粉先用拍打的手法过一遍筛；</li><li>纯糖粉如果有凝块现象，也先用碾压的手法过一遍筛；</li><li>杏仁粉和纯糖粉混合均匀后也再过一遍筛，放置一旁备用；</li><li>冰箱中取出的蛋清先放到室温中回温一下再用；</li><li>蛋清打发，砂糖分三次加入，快打发好的时候换至低速打发，轻轻转盆打发，打至硬性发泡，有坚挺的尖角，蛋清要打发得比较硬，有明显的阻力那种；</li><li>粉类混合物一次性加入打发好的蛋清中，先是用切拌的手法拌至无干粉状态；</li><li>然后用轻柔的手法用刮刀沿着盆壁把面糊摊开，摊完一遍后把面糊聚拢，再按照之前的手法把面糊摊开，重复两三次后，把所有的面糊都聚集在刮刀上，观察面糊掉落的状态，是否可以像飘带一样断断续续地掉落后又如绸缎般层层堆叠；</li><li>面糊拌匀至理想状态后放入裱花袋中，装的时候尽量不要在面糊中混入空气，防止挤面糊的时候形成气泡。用目前家里有的最大号的圆形花嘴来挤面糊；</li><li>在烘焙纸上按照一定的间距挤出一定直径的面糊；拍打容器底部震出气泡；</li><li>用手指头在湿的厨房纸上蘸一下，然后把面糊上面的尖尖抹平；用牙签挑出表面的气泡；</li><li>用自己家里的烤箱第二档热风模式定温35度，把马卡龙面糊放到烤箱中上层风干至触手不粘，表面形成一层壳，时间大约15分钟；</li><li>烤箱用风炉模式预热温度至 （第一种方案160度，烤箱中层烘烤16-17分钟），或者（第二种方案 150度，烤箱中下层15-16分钟）</li></ol><p><br></p><p>*** 如果要做其他风味的马卡龙，用斑斓粉或者咖啡粉等3-5g代替掉相应重量的杏仁粉即可。</p><p><br></p><p>第一种方案来自酱酱：</p><p>1. 杏仁粉 43g、纯糖粉35g(已减糖，原糖粉量43g)</p><p>2. 蛋清33g，砂糖30g</p><p><br></p><p>第二种方案是减糖版：</p><p>1. 杏仁粉 40g, 糖粉30g</p><p>2. 蛋清30g，糖25g</p>",
+      "createTime": 1691140901934,
+      "publishState": 1,
+      "publishTime": 1691140901934,
+      "favoredBy": [
+        "admin"
+      ],
+      "rates": [
+        4,
+        5
+      ],
+      "comments": [
+        {
+          "author": "admin",
+          "avatar": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP3040022.JPG?alt=media&token=485f46fb-39a9-4771-bb97-4cded9d73896",
+          "content": "eee",
+          "datetime": "a few seconds ago"
+        },
+        {
+          "author": "admin",
+          "avatar": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP3040022.JPG?alt=media&token=485f46fb-39a9-4771-bb97-4cded9d73896",
+          "content": "2222",
+          "datetime": "2023-12-26T05:22:15.292Z"
+        }
+      ],
+      "id": 4,
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fmacaron.jpg?alt=media&token=9175ebb2-63cc-45ee-be26-ad7c4413d79d"
+    },
+    {
+      "title": "Sweet & Sour Fish 糖醋鱼",
+      "author": "admin",
+      "category": "Fish",
+      "group": "Others",
+      "keywords": "糖醋 鱼",
+      "ingredients": "鱼 胡椒粉 盐 料酒 姜\n糖 醋 番茄酱 淀粉 天妇罗粉 ",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsour%20sweet%20fish.jpg?alt=media&token=fe951579-25ed-439b-b154-7cb25e795307",
+      "procedure": "<ol><li>鱼洗净切花刀后用姜葱料酒抓匀腌制10分钟；我自己习惯是用姜粉、料酒、盐和胡椒粉腌制；</li><li>用天妇罗粉加水调成流动酸奶状面糊；或者用1大勺面粉、1大勺淀粉、1个蛋清、一勺油加清水调成流动酸奶状面糊；</li><li>把鱼均匀裹上面糊，放到油锅里炸至两面金黄；</li><li>炸鱼的时候同时另起一小锅，制作糖醋汁，然后趁热浇在炸好的鱼身上</li></ol><p>a）制作老式糖醋汁： 糖100g、醋50g、老抽2g、盐2g、水150g，搅匀后下到热油锅里小火熬煮至糖炒化起沫时，下入水淀粉， 外加1勺热油，</p><p>b）或者小红书糖醋汁：1勺淀粉、2勺醋、3勺糖、4勺番茄酱、5勺清水，搅匀后，下到热油锅里小火熬煮至粘稠，浇一点明油</p>",
+      "createTime": 1691140870914,
+      "publishState": 1,
+      "publishTime": 1691140876349,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 5
+    },
+    {
+      "title": "Spring Onion Chinese Pancake 葱油饼",
+      "author": "admin",
+      "category": "Wheaten",
+      "group": "Others",
+      "keywords": "面食 葱油饼",
+      "ingredients": "1. 中筋面粉 250g， 50-60度的温热水160g， 1/2 茶匙 盐；\n2. 有盐黄油 50g，面粉 20g；\n3. 葱花 45g",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2FChinese%20Pancake.jpg?alt=media&token=60a124fa-afee-41a5-931f-a071f1aba26a",
+      "procedure": "<ol><li>在面粉中加入盐，倒入温热水，搅拌成絮状后用手揉搓、摔打面团至盆光面光手光之后，加盖保鲜膜醒面30分钟以上；</li><li>把香葱洗净后切葱花；</li><li>把黄油融化后，加入面粉；</li><li>把面团分成4-8个等量小剂子，案板上抹油，把小剂子擀成长方形，把油酥均匀地刷到擀好的面团上，洒上葱花，按照堆叠布匹的手法把面片堆叠成长布条型；把堆叠好的面团拉长一点，再一边抻拉一边从一头卷过来，</li><li>把卷好的面团盖上保鲜膜再次醒面20分钟；</li><li>把醒好的面团用手掌摁压成圆形面饼；</li><li>热锅刷油，中小火煎至两面金黄。</li></ol>",
+      "createTime": 1690807255133,
+      "publishState": 1,
+      "publishTime": 1690807255133,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 6
+    },
+    {
+      "title": "Mixed Season Veggies 素炒什锦时蔬",
+      "author": "admin",
+      "category": "Veggies",
+      "group": "Fat Control",
+      "keywords": "蔬菜 素",
+      "ingredients": "西兰花 木耳 荷兰豆 魔鬼 胡萝卜 等等各式喜欢的时蔬",
+      "procedure": "<ol><li>木耳先泡发，备用；</li><li>西兰花、胡萝卜洗净摘成合适尺寸，放入微波炉里预煮熟；</li><li>其他蔬菜洗净切好；</li><li>起锅热油，放入全部的时蔬煸炒至熟，中途加盐调味，加高汤焖煮。</li></ol>",
+      "createTime": 1691140996836,
+      "publishState": 1,
+      "publishTime": 1691140996836,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [
+        {
+          "author": "admin",
+          "avatar": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP3040022.JPG?alt=media&token=485f46fb-39a9-4771-bb97-4cded9d73896",
+          "content": "nice, i love it###",
+          "datetime": "26-01-2024"
+        }
+      ],
+      "id": 7,
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fmix%20vegis.jpg?alt=media&token=1412851b-0899-406b-ae5e-81fca55bcfca"
+    },
+    {
+      "title": "Stirfried Fish Slices 爆炒鱼片",
+      "author": "admin",
+      "category": "Fish",
+      "group": "Stir-fry",
+      "keywords": "鱼片",
+      "ingredients": "1. 脆斑鱼片 青椒 木耳 ；\n2. 姜、料酒、盐、胡椒粉、淀粉、新鲜小辣椒；",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fkaoleipai%201.jpg?alt=media&token=c1d57e2c-5e81-4a7e-b23b-a2e2a91950a6",
+      "procedure": "<ol><li>脆斑鱼片洗净沥水后加姜粉、盐、料酒、白胡椒粉和淀粉抓匀，腌制10分钟以上；</li><li>木耳提前泡发，洗净备用；</li><li>青椒切成大小合适的片；</li><li>先把蔬菜类的炒至八成熟，盛出备用；</li><li>重新热锅，大火，加入姜片和小辣椒爆香后放入鱼片滑炒，至鱼片变色后加入刚才炒制的蔬菜，如果有高汤的话，加入一点高汤，中小火焖上1-2分钟即可。</li></ol>",
+      "createTime": 1691113219854,
+      "publishState": 1,
+      "publishTime": 1691113219854,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 8
+    },
+    {
+      "title": "KoreanBibimbap 石锅拌饭",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Fast Food",
+      "keywords": "石锅 韩式牛肉 米饭",
+      "ingredients": "1. 豆芽、菠菜、鸡蛋、牛肉\n2. 剩米饭\n3. 韩式拌饭酱",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fshiguobanfan.jpg?alt=media&token=28c32f58-47e1-4567-ad6c-0c26ffa20ddf",
+      "procedure": "<ol><li>牛肉片加入韩式牛肉腌肉酱中腌制备用；</li><li>豆芽洗净后，放入烧开的水中煮30秒，捞出沥水；</li><li>菠菜洗净后，也是放入烧开的水中煮30秒，捞出沥水，切成合适长度的段；</li><li>把几瓣大蒜去皮后打成蒜蓉，取3勺的用量；</li><li>热锅，加入3勺芝麻油、2勺普通油，油热后小火倒入蒜蓉爆香，加入3勺生抽，均分，分别加入沥完水的豆芽和菠菜中，菠菜中另外加入1勺生抽；根据需要，在豆芽和生抽中加入适量的芝麻和葱末；</li><li>把拌好的豆芽和菠菜放入密封盒中，放到冰箱冷藏可以保存一个星期；</li><li>小锅煎一个荷包蛋至合适的程度，放一盘备用；</li><li>石锅先加热至锅体已经变温，把米饭倒入锅中，盖盖加热；</li><li>同时起锅煸炒牛肉一分钟；</li><li>把准备好的凉拌豆芽和菠菜码入石锅中，加入刚刚炒好的牛肉，顶上再放方才煎好的荷包蛋，挤上韩式石锅拌饭酱，serve</li></ol>",
+      "createTime": 1691114258238,
+      "publishState": 1,
+      "publishTime": 1691114258238,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 9
+    },
+    {
+      "title": "Fried haitail 香煎带鱼",
+      "author": "admin",
+      "category": "Fish",
+      "group": "Grilled",
+      "keywords": "带鱼 空气炸锅",
+      "ingredients": "1. 带鱼\n2. 葱煎、料酒、生抽、鸡蛋、胡椒粉、盐",
+      "procedure": "<ol><li>带鱼洗净切段；</li><li>加入适量葱姜、一勺料酒、一勺生抽、一个鸡蛋、一小勺胡椒粉（我还另外加了点五香粉）、适量盐，抓拌均匀，腌制半小时备用；</li><li>空气炸锅版： 200度20分钟，中途翻面；</li><li>油煎版：起锅热油，带鱼沥干汁液后拍点干面粉，中小火煎至两面金黄</li></ol>",
+      "createTime": 1691458381027,
+      "publishState": 1,
+      "publishTime": 1691458381027,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 10,
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fjiandaiyu.jpg?alt=media&token=abf88ff3-543a-49f8-92b7-354688ca85ee"
+    },
+    {
+      "title": "French Apple Pork Chop 法式苹果炖猪排",
+      "author": "admin",
+      "category": "Pork",
+      "group": "Braised",
+      "keywords": "猪排 猪颈肉",
+      "ingredients": "1. 猪颈肉 \n2. 苹果 2个、紫洋葱 1个，大蒜4-5瓣，香菜若干\n3. 红糖，白兰地，黄油，肉桂粉，生抽",
+      "procedure": "<ol><li>苹果切成我平常切的大小；洋葱切成不厚不薄的片；</li><li>大蒜去皮拍一下；</li><li>猪颈肉切成大概1.5公分的厚度，用厨房纸吸干表面的水分，两面都撒上盐和研磨黑胡椒，用手压一压，不用腌制直接放油锅里煎，每面大概煎一分钟左右，待第一面煎出漂亮的黄色后就可以在边上放上大蒜增香，在锅边淋一圈白兰地，然后侧锅，烧酒；</li><li>把猪排盛出；</li><li>不用洗锅，直接下洋葱翻炒，待洋葱变色后加入苹果，翻炒几下后加入红糖继续翻炒，再加点肉桂粉，再淋一圈白兰地增香；</li><li>加一点生抽调味，再放入猪排一起炖，边上放一小块黄油，出锅前洒上干欧芹或者香菜即可。</li></ol>",
+      "createTime": 1691458364460,
+      "publishState": 1,
+      "publishTime": 1691458364460,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 11,
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Ffashipingguozhupai.jpg?alt=media&token=a9179477-2f1c-4120-9746-68a2d1722930"
+    },
+    {
+      "title": "Sour & Chili Rice Noodles 老友粉",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Noddles",
+      "keywords": "米粉 牛肉",
+      "ingredients": "1. 江西或者桂林米粉；\n2. 酸笋、豆豉、西红柿；青菜\n3. 姜葱蒜、豆瓣酱、生抽、耗油、料酒",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Flaoyoufen.jpg?alt=media&token=8ee67c84-2549-4733-a2b7-f29412636947",
+      "procedure": "<ol><li>将嫩牛柳肉片加姜粉、料酒、生抽、耗油、油腌制十分钟以上；</li><li>米粉冷水下锅后煮熟捞出过凉水，盛到碗里备用；</li><li>将酸笋切片，西红柿切块，葱姜蒜切好备用；青菜洗净</li><li>坐锅热油，下葱姜蒜和豆豉粒炒香，加入一勺豆瓣酱，倒入酸笋继续翻炒；</li><li>锅连加适量热水，煮开后下西红柿，煮至汤汁到合适程度，加入青菜，煮一两分钟，然后加入牛肉片，再次水开后即可关火；</li><li>把汤汁倒到米粉上即可serve；</li></ol>",
+      "createTime": 1691451287895,
+      "publishState": 1,
+      "publishTime": 1691451287895,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 12
+    },
+    {
+      "title": "Sour Radish Pork Hook Rice Noodle 酸萝卜猪脚粉",
+      "author": "admin",
+      "category": "Pork",
+      "group": "Noddles",
+      "keywords": "米粉 猪脚 酸萝卜",
+      "ingredients": "1. 江西或者桂林米粉；\n2. 猪脚、酸萝卜老鸭汤调料包",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsuanluobozhutifen.jpg?alt=media&token=01b40a47-4b17-4b10-a9cb-4db38f6a6403",
+      "procedure": "<ol><li>把猪脚洗净焯水；用后tu热水将焯过的猪脚再次洗净；</li><li>把酸萝卜老鸭汤调料包按说明加足够的清水与猪脚同煮；大约煮1个半小时，中途加一勺盐调味；</li><li>猪脚煮好后，将米粉冷水下锅煮至米线熟透，捞出过凉水，盛入碗中；把猪脚和汤加入碗中即可。</li></ol>",
+      "createTime": 1691450878138,
+      "publishState": 1,
+      "publishTime": 1691450878138,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 13
+    },
+    {
+      "title": "Fried Chicken Inner Parts 炒鸡杂",
+      "author": "admin",
+      "category": "Poultry",
+      "group": "Stir-fry",
+      "keywords": "鸡杂 ",
+      "ingredients": "1. 鸡杂\n2. 青椒 或者 酸笋/酸佛手瓜；  木耳及其他蔬菜\n3. 姜葱蒜、小辣椒",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fchaojiza.jpg?alt=media&token=8491b4ed-523c-49c4-99f5-700c62af349a",
+      "procedure": "<ol><li>鸡胗鸡肝鸡心洗净切成合适大小，加入姜、料酒、生抽、耗油、五香粉腌制；</li><li>木耳提前泡发，洗净撕成合适大小；</li><li>葱姜蒜和小辣椒切好，彩椒或者酸蔬菜切块；</li><li>把蔬菜先炒熟，加盐调味，盛出备用；</li><li>坐锅热油，油多放一些，把葱姜蒜和小辣椒编出香味后下鸡杂，大火煸炒至变色后，放入蔬菜一起继续煸炒至熟</li></ol>",
+      "createTime": 1691458611231,
+      "publishState": 1,
+      "publishTime": 1691458611231,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 14
+    },
+    {
+      "title": "Toasted Eels Rice 烤鳗鱼饭",
+      "author": "admin",
+      "category": "Fish",
+      "group": "Fast Food",
+      "keywords": "烤鳗鱼 ",
+      "ingredients": "1. 市售烤鳗鱼\n2. 米饭",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fgrilledeelrice.jpg?alt=media&token=a818e23f-ac2b-411d-9668-b793cdca7bda",
+      "procedure": "<p>1.鳗鱼冷冻状态下就切成合适厚度的鱼块，放在米粉上，一起微波炉加热即可；</p>",
+      "createTime": 1691453578991,
+      "publishState": 1,
+      "publishTime": 1691453578991,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 15
+    },
+    {
+      "title": "Grilled Salmon Sushi 烤三文鱼寿司",
+      "author": "admin",
+      "category": "Fish",
+      "group": "Grilled",
+      "keywords": "烤三文鱼",
+      "ingredients": "1. 烤三文鱼；\n2. 寿司米，寿司醋；\n3. 烤鳗鱼酱；\n4. 葱，美乃滋；",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fgrillsalmonsushi.jpg?alt=media&token=ac5121d9-0bde-4fb8-919b-50535dfb17cc",
+      "procedure": "<ol><li>1.5 cup 寿司米加大约1 cup的水，煮成米饭，煮好后，趁热加入寿司醋，用压拌的手法和米饭拌匀；边拌边尝味至满意为止；</li><li>把新鲜三文鱼切成合适大小和厚度的片状；把香葱切成葱花，备用；</li><li>用手捏寿司摸具把米饭捏成一个个合适大小，刷上烤鳗鱼酱；</li><li>把三文鱼片摆在米饭上，再在三文鱼上刷烤鳗鱼酱；</li><li>用喷枪炙烤三文鱼；</li><li>烤完之后再在三文鱼上刷第二遍的烤鳗鱼酱；根据需要洒上葱花，挤上美乃滋即可；</li></ol>",
+      "createTime": 1691450555013,
+      "publishState": 1,
+      "publishTime": 1691450555013,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 16
+    },
+    {
+      "title": "Ikea Meat Ball & Mashed Potato 宜家肉丸子土豆泥套餐",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Fast Food",
+      "keywords": "肉丸 土豆泥",
+      "ingredients": "1. 宜家售的肉丸；\n2.  土豆；\n3. Gravy Sauce Powder；",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fikeabeefballset.jpg?alt=media&token=0f001d8b-a312-47dd-8e79-24254555e521",
+      "procedure": "<ol><li>土豆洗净削皮切块，放锅里蒸熟，蒸大约15分钟左右；</li><li>空气炸锅200度烤宜家肉丸子大约8-10分钟；</li><li>将蒸熟的土豆放入大碗里加盐和研磨的黑胡椒，压成泥，中途趁热加入一块黄油，加入少许牛奶拌匀至顺滑；</li><li>将Gravy 粉用热水调匀后，淋在肉丸子和土豆泥面上即可；</li></ol>",
+      "createTime": 1691453528645,
+      "publishState": 1,
+      "publishTime": 1691453528645,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 17
+    },
+    {
+      "title": "Braised Ox Tounge 卤牛舌",
+      "author": "admin",
+      "category": "Beef",
+      "group": "Braised",
+      "keywords": "牛舌 卤菜",
+      "ingredients": "1. 牛舌；\n2. 自家卤味包",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fluniushe.jpg?alt=media&token=61cf961e-982a-42d1-b6ec-000d2b7b6a41",
+      "procedure": "<ol><li>把牛舌洗净，不需要焯水；</li><li>将半包自家卤的卤料包倒在牛舌上，加清水没过牛舌即可；</li><li>大火烧开后，转小火煮一个小时左右，煮到用筷子能插透牛舌的程度即可；</li></ol>",
+      "createTime": 1691450685546,
+      "publishState": 1,
+      "publishTime": 1691450685546,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 18
+    },
+    {
+      "title": "Vinegar Potato Shreds 醋溜土豆丝",
+      "author": "test1",
+      "category": "Veggies",
+      "group": "Fat Control",
+      "keywords": "土豆丝",
+      "ingredients": "土豆丝",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fculiutudousi.jpg?alt=media&token=6f786ec5-c50d-4a1f-af25-d6470d244d74",
+      "procedure": "<ol><li>土豆切成细丝后泡水里把淀粉泡掉；</li><li>土豆丝洗净沥水；</li><li>坐锅热油，放土豆丝大火煸炒，加盐、醋、糖调味，至炒熟即可。</li></ol>",
+      "createTime": 1691461044226,
+      "publishState": 1,
+      "publishTime": 1691461044226,
+      "favoredBy": [],
+      "rates": [
+        2,
+        4
+      ],
+      "comments": [
+        {
+          "author": "admin",
+          "avatar": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Avatars%2FP3040022.JPG?alt=media&token=485f46fb-39a9-4771-bb97-4cded9d73896",
+          "datetime": "26-01-2024"
+        }
+      ],
+      "id": 19
+    },
+    {
+      "title": "Cumin Lamb 孜然羊肉",
+      "author": "test1",
+      "category": "Lamb",
+      "group": "Stir-fry",
+      "keywords": "羊肉 孜然",
+      "ingredients": "1. 羊肉\n2. 洋葱，姜葱\n3. 孜然粉，孜然粒，盐",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fcuminlamb.jpg?alt=media&token=82fe262d-807c-46a9-acce-a78064d621cf",
+      "procedure": "<ol><li>洋葱切丝后煸炒至变色后盛出备用；</li><li>羊肉切丝后，热锅不放油，把羊肉丝放进去煸炒出水，把羊肉盛出备用；</li><li>锅擦净后，再坐锅热油，把姜丝和葱段放进去煸香后把刚才的羊肉丝倒入翻炒片刻，把洋葱也加入进去，加盐和多多的孜然粉、孜然粒调味；</li></ol>",
+      "createTime": 1691461325479,
+      "publishState": 1,
+      "publishTime": 1691461325479,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 20
+    },
+    {
+      "title": "Tomato Braised Beef 番茄炖牛肉",
+      "author": "test1",
+      "category": "Beef",
+      "group": "Braised",
+      "keywords": "西红柿 牛腩 牛坑腩",
+      "ingredients": "1. 牛腩或者牛坑腩；\n2. 西红柿两三个，洋葱半个；\n3. （冰糖），八角，香叶，桂皮，干辣椒，姜1块，葱两根，蒜5瓣；\n4. 生抽1勺，酱油膏1勺，老抽1勺，料酒3勺，盐、糖适量；",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Ffanqieniunan.jpg?alt=media&token=40696c9d-0103-4991-82df-190aba1ce241",
+      "procedure": "<ol><li>牛腩切块大粒，泡清水30分钟，捞出，冷水下锅，水中放葱姜料酒，水开后继续煮5分钟；牛腩捞出用热水洗去浮沫，沥干水分备用；</li><li>西红柿划十字花刀，空气炸锅180度4-5分钟，撕皮后切块，洋葱切小块；</li><li>蒜拍松，姜切块，葱切段，</li><li>准备碗汁：生抽、酱油膏、老抽、料酒，搅匀备用</li><li>热锅放油，放入洋葱煸炒至透明；</li><li>加入西红柿，放入半小勺盐，可以让西红柿快速出汁起沙；炒至西红柿软烂起沙后，把锅移开；</li><li>另起一锅，（此时可以冷油冷锅小火熬冰糖，熬糖色，也可以忽略此步骤）， 热锅倒油，加入香料，倒入牛腩块煸炒，</li><li>炒出香味后倒入碗汁继续翻炒2分钟；</li><li>将所有食材移入砂锅或者炖锅中，倒入开水至没过食材，再将之前炒制过的西红柿和洋葱一同倒入，加入1小勺糖中和西红柿的酸度，大火煮开后转小火，慢炖1.5个小时或以上，中途加盐调味；</li><li>出锅前可撒上葱花点缀。</li></ol>",
+      "createTime": 1691462637304,
+      "publishState": 1,
+      "publishTime": 1691462637304,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 21
+    },
+    {
+      "title": "Steamed Garlic Vermicelli Pawn 蒜蓉粉丝蒸虾",
+      "author": "test1",
+      "category": "Pawn",
+      "group": "Others",
+      "keywords": "蒜蓉 虾 粉丝",
+      "ingredients": "1. 虾\n2. 粉丝，1-2头蒜\n3. 生抽、耗油、盐",
+      "procedure": "<ol><li>粉丝湿润后用剪刀剪成两半，用温水泡发30分钟，捞出沥干水分；</li><li>整头大蒜拉成蒜蓉；</li><li>热锅，倒入和蒜蓉等量的油加热，倒入蒜蓉，加生抽、耗油、盐爆香；</li><li>虾挑出虾肠，背上切一刀，</li><li>把粉丝垫在盘子里，上面摆上一圈虾，把蒜蓉平铺其上，</li><li>起锅水开后放入虾和粉丝大火蒸5分钟左右，关火，2分钟后再揭盖。</li></ol>",
+      "createTime": 1691463229135,
+      "publishState": 1,
+      "publishTime": 1691463229135,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 22
+    },
+    {
+      "title": "Satay Honeycomb Tripe 沙爹金钱肚",
+      "author": "test1",
+      "category": "Beef",
+      "group": "Others",
+      "keywords": "沙爹 金钱肚",
+      "ingredients": "1. 金钱肚\n2.姜葱、八角、香叶、桂皮，辣椒\n3.料酒1勺、生粉1勺、盐5g、沙爹酱50g、柱侯酱30g，糖5g",
+      "procedure": "<ol><li>金钱肚整片放入冷水中，水中加八角、香叶、桂皮、姜葱、料酒，水开后转小火煮30分钟；捞出沥水备用；</li><li>热锅冷油，放入葱，熬出香味，</li><li>金钱肚要将水分挤干净；切片备用；</li><li>加盐，沙爹酱、柱侯酱，糖和生粉腌制；</li><li>把熬好的葱油倒入，拌匀；</li><li>上蒸锅5-8分钟即可。</li></ol>",
+      "createTime": 1691463782570,
+      "publishState": 1,
+      "publishTime": 1691463782570,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 23
+    },
+    {
+      "title": "豉油皇炒面",
+      "author": "test1",
+      "category": "Wheaten",
+      "group": "Noddles",
+      "keywords": "炒面",
+      "procedure": "",
+      "createTime": 1691463826438,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 24
+    },
+    {
+      "title": "豉汁排骨",
+      "author": "test1",
+      "category": "Pork",
+      "group": "Others",
+      "keywords": "猪肉 排骨",
+      "procedure": "",
+      "createTime": 1691463874907,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 25
+    },
+    {
+      "title": "泰式酸辣虾",
+      "author": "test1",
+      "category": "Pawn",
+      "group": "Fat Control",
+      "keywords": "虾",
+      "procedure": "",
+      "createTime": 1691463899726,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [
+        "admin"
+      ],
+      "rates": [],
+      "comments": [],
+      "id": 26
+    },
+    {
+      "title": "鱼香肉丝",
+      "author": "test1",
+      "category": "Pork",
+      "group": "Spicy Food",
+      "keywords": "猪肉",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fyuxiangrousi.jpg?alt=media&token=823b9462-f5d2-4487-bf11-a0621197d004",
+      "procedure": "",
+      "createTime": 1691463941776,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 27
+    },
+    {
+      "title": "Vietnamese Beef Vermicelli 越式牛肉拌粉",
+      "author": "test1",
+      "category": "Beef",
+      "group": "Noddles",
+      "keywords": "越式 牛肉 米粉 粉丝 凉拌",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fyueshibanfen.jpg?alt=media&token=963e191a-006b-4abd-b77b-55464ec6f2a3",
+      "procedure": "",
+      "createTime": 1691495068039,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 28
+    },
+    {
+      "title": "Pawn Toufu Bowl 虾头煲豆腐",
+      "author": "test1",
+      "category": "Pawn",
+      "group": "Fat Control",
+      "keywords": "虾头 豆腐",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fxiatoudouf.jpg?alt=media&token=3d4acbc7-cf59-4119-a3b7-e13a45961213",
+      "procedure": "",
+      "createTime": 1691495133870,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [
+        "admin2"
+      ],
+      "rates": [],
+      "comments": [],
+      "id": 29
+    },
+    {
+      "title": "Pork and Dried Bamboo Shoots 猪肉炖笋干",
+      "author": "test1",
+      "category": "Pork",
+      "group": "Braised",
+      "keywords": "猪肉 笋干",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fzhurousungan.jpg?alt=media&token=f0962323-bfbd-427f-8de2-a0cf8b4a4bfb",
+      "procedure": "",
+      "createTime": 1691495231802,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 30
+    },
+    {
+      "title": "Salmon Salad 三文鱼沙拉",
+      "author": "test7",
+      "category": "Fish",
+      "group": "Fat Control",
+      "keywords": "三文鱼 沙拉",
+      "ingredients": "1. 烟熏三文鱼\n2. 各式沙拉叶子\n3. quinoa 藜麦 （optional）\n4. 清爽沙拉酱、盐、黑胡椒",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsalad.jpg?alt=media&token=582b7241-913e-4b46-9dca-c5937c5f686c",
+      "procedure": "<ol><li>沙拉叶子洗净沥水，加盐和研磨黑胡椒；</li><li>烟熏三文鱼撕成小片；</li><li>加上事先煮好的藜麦；</li><li>倒入喜欢的 Italian or French Salad Dressing 或者韩式 Lemon Salad Dressing，拌匀即可</li></ol>",
+      "createTime": 1691495678546,
+      "publishState": 1,
+      "publishTime": 1691496013428,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 31
+    },
+    {
+      "title": "Toasted Lamb Salad 烤羊肉沙拉",
+      "author": "test7",
+      "category": "Lamb",
+      "group": "Fat Control",
+      "keywords": "沙拉 羊肉",
+      "ingredients": "1. 羊肩肉；\n2. 沙拉叶子；牛油果\n3. 时鲜水果；\n4. 沙拉酱",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsaladwithlamb.jpg?alt=media&token=672e3db1-cfe7-4df0-a285-2641262a29da",
+      "procedure": "<ol><li>沙拉叶子洗净沥水；</li><li>牛油果去皮切块；</li><li>水果洗净切块；</li><li>加盐和黑胡椒；</li><li>羊排用盐和孜然调味煎熟，切小块，加入沙拉中，倒入喜欢的沙拉酱，拌匀即可。</li></ol>",
+      "createTime": 1691495996750,
+      "publishState": 1,
+      "publishTime": 1691495996750,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 32
+    },
+    {
+      "title": "Nanjing Salty Duck 南京盐水鸭",
+      "author": "test7",
+      "category": "Poultry",
+      "group": "Others",
+      "keywords": "盐水鸭",
+      "ingredients": "1. 鸭子一只；\n2. 花椒一把，盐两大勺；\n3. 白醋1勺，料酒1勺，姜葱",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsaltyduck.jpg?alt=media&token=57a25d99-0e18-4e2b-98d2-8767d0c2af14",
+      "procedure": "<ol><li>鸭子洗净沥水；</li><li>热锅不放油，加入两大勺盐，数十颗花椒，炒至变色且散发浓郁香味，放凉；</li><li>把花椒盐均匀地涂抹鸭子的表面及腹腔，放入冰箱冷藏至少一夜；</li><li>把鸭子直接（不洗）放入锅内，加入足够的清水，加一勺醋和一勺料酒，以及葱姜，煮30分钟；</li><li>取出放凉斩件摆盘即可。</li></ol>",
+      "createTime": 1691496358096,
+      "publishState": 1,
+      "publishTime": 1691496358096,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 33
+    },
+    {
+      "title": "Salty Chicken 盐焗鸡",
+      "author": "test7",
+      "category": "Poultry",
+      "group": "Grilled",
+      "keywords": "盐焗 鸡",
+      "ingredients": "1. 鸡一只，或者鸡腿，或者鸡翅\n2. 四季盐焗鸡粉一包",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsaltychicken.jpg?alt=media&token=3b811d41-856f-4617-94ec-ba753e0c4059",
+      "procedure": "<ol><li>鸡洗净沥水，擦干表面水分；</li><li>用一包盐焗鸡粉均匀地涂抹鸡肉表面，冰箱冷藏过夜；</li><li>空气炸锅200度，每面10-15分钟；</li></ol>",
+      "createTime": 1691496522520,
+      "publishState": 1,
+      "publishTime": 1691496522520,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 34
+    },
+    {
+      "title": "Sour Bamboo Shoots Stir-fried Duck Giblet 酸笋炒鸭胗",
+      "author": "test7",
+      "category": "Poultry",
+      "group": "Stir-fry",
+      "keywords": "酸笋 酸菜 鸭胗",
+      "ingredients": "1. 鸭胗\n2. 木耳、酸笋、姜葱蒜\n3. 料酒、生抽、耗油",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fsuansunyazhen.jpg?alt=media&token=c6966f6a-4a8c-4db0-9643-13dc56600e2e",
+      "procedure": "",
+      "createTime": 1691496775296,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 35
+    },
+    {
+      "title": "Cold and Dressed Meats 凉拌猪杂或者牛杂",
+      "author": "test7",
+      "category": "Beef",
+      "group": "Others",
+      "keywords": "牛腱子 金钱肚 猪耳朵 猪肚 猪心",
+      "ingredients": "1. 自己喜欢的肉类；\n2. 香菜、蒜； 还可以加上黄瓜\n3. 糖、醋、生抽、蚝油、花椒油、香油；孜然粉、椒盐粉",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Ffuqifeipian.jpg?alt=media&token=e5c49d65-f44c-4e6b-abe2-aec7e68db2db",
+      "procedure": "<ol><li>提前把肉类卤好，切薄片；</li><li>黄瓜、香菜切段，大蒜拉成蒜蓉；</li><li>（加入黄瓜段）加入糖、醋、生抽、蚝油、自制辣椒酱调味，加入蒜蓉，淋上热油，再加香油和花椒油拌匀，撒孜然粉和椒盐粉；上桌前加入香菜；</li></ol>",
+      "createTime": 1691497332296,
+      "publishState": 1,
+      "publishTime": 1691497332296,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 36
+    },
+    {
+      "title": "香茅猪排",
+      "author": "test7",
+      "category": "Pork",
+      "group": "Grilled",
+      "keywords": "香茅 越式 猪排 猪肉",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fvietnameseporkchop.jpg?alt=media&token=deb56b2b-f6aa-4b84-8dde-bfe5bd2cd854",
+      "procedure": "",
+      "createTime": 1691497466727,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 37
+    },
+    {
+      "title": "Five Cups Duck 五杯鸭",
+      "author": "test7",
+      "category": "Poultry",
+      "group": "Others",
+      "keywords": "鸭",
+      "ingredients": "1. 鸭\n2. 料酒、糖、醋、生抽",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fwubeiya.jpg?alt=media&token=f17b7f6f-d7a0-401e-a49e-dd5a0c9cac6d",
+      "procedure": "<ol><li>鸭子洗净，把脂肪切下来，凉锅熬油；</li><li>鸭子炸至表面有焦黄色；</li><li>把炸油倒出，留少许底油在锅中；</li><li>一碗糖，一碗略少一点的醋、一碗生抽、一碗料酒，大火烧开后，转中火，烧30分钟，中途翻面</li></ol>",
+      "createTime": 1691497703978,
+      "publishState": 1,
+      "publishTime": 1691497703978,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 38
+    },
+    {
+      "title": "Pan-fried Hairtail香煎带鱼",
+      "author": "test7",
+      "category": "Fish",
+      "group": "Grilled",
+      "keywords": "带鱼",
+      "ingredients": "1.带鱼\n2.葱姜、料酒、生抽、鸡蛋、胡椒粉、五香粉、盐、面粉",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fjiandaiyu.jpg?alt=media&token=dfe40e13-064a-44c3-b416-d17c400c56c0",
+      "procedure": "<ol><li>带鱼洗净沥水；</li><li>加入适量葱姜、一勺料酒、一勺生抽、一个鸡蛋、一小勺胡椒粉、一小勺五香粉、适量盐，抓拌均匀，腌制30分钟；</li><li>坐锅热油，带鱼表面粘上薄薄一层干面粉，放到油锅里小火慢煎，每面大约煎10分钟，或者空气炸锅200度 20分钟，中途翻面；</li></ol>",
+      "createTime": 1691498391104,
+      "publishState": 1,
+      "publishTime": 1691498391104,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 39
+    },
+    {
+      "title": "Braised Chicken红烧鸡",
+      "author": "test7",
+      "category": "Poultry",
+      "group": "Braised",
+      "keywords": "红烧 鸡",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fhongshaoji.jpg?alt=media&token=eb26d047-4b68-4fd5-975a-4ae123fc54ed",
+      "procedure": "",
+      "createTime": 1691498788498,
+      "publishState": 1,
+      "publishTime": 1691498788498,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 40
+    },
+    {
+      "title": "French Country Bread 软欧包",
+      "author": "test7",
+      "category": "Bread",
+      "group": "Sweeties",
+      "keywords": "面包 欧包",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fruanoubao.jpg?alt=media&token=ba717cdd-3e8f-4c0e-8932-a0c381978063",
+      "procedure": "",
+      "createTime": 1691498879097,
+      "publishState": 1,
+      "publishTime": 1691498879097,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 41
+    },
+    {
+      "title": "Toasted American Ribs 烤肋排",
+      "author": "test7",
+      "category": "Pork",
+      "group": "Grilled",
+      "keywords": "烤 肋排 猪肉",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fkaoleipai.jpg?alt=media&token=ee8a0d53-0660-4c20-8977-4ae294b8573a",
+      "procedure": "",
+      "createTime": 1691498955765,
+      "publishState": 1,
+      "publishTime": 1691498955765,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 42
+    },
+    {
+      "title": "Grilled Fish 烤鱼",
+      "author": "test7",
+      "category": "Fish",
+      "group": "Spicy Food",
+      "keywords": "麻辣 烤鱼",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fkaoyu.jpg?alt=media&token=08e67414-80ca-4caf-b0aa-71fad299804c",
+      "procedure": "",
+      "createTime": 1691498993987,
+      "publishState": 1,
+      "publishTime": 1691498993987,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 43
+    },
+    {
+      "title": "Cold and dressed Bean Sprout 凉拌豆芽",
+      "author": "test7",
+      "category": "Veggies",
+      "group": "Fat Control",
+      "keywords": "豆芽 凉拌",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fliangbandouya.jpg?alt=media&token=e09a15c2-2095-4459-aad7-4aa74adec96d",
+      "procedure": "",
+      "createTime": 1691499046740,
+      "publishState": 1,
+      "publishTime": 1691499046740,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 44
+    },
+    {
+      "title": "Spicy Mix 麻辣烫",
+      "author": "test7",
+      "category": "Veggies",
+      "group": "Spicy Food",
+      "keywords": "麻辣",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fmalatang.jpg?alt=media&token=d9476ebb-7b36-4e5d-a2d4-c21cc3bf40c1",
+      "procedure": "",
+      "createTime": 1691499105594,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 45
+    },
+    {
+      "title": "Spicy Mixed Meat and Veggies 麻辣香锅",
+      "author": "test7",
+      "category": "Beef",
+      "group": "Spicy Food",
+      "keywords": "麻辣 牛肉 猪大肠",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fmalaxiangguo.jpg?alt=media&token=bdd1fa59-5ae3-482a-9873-562d9eed018a",
+      "procedure": "",
+      "createTime": 1691499200591,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 46
+    },
+    {
+      "title": "Ox Tail Soup 牛尾汤",
+      "author": "test7",
+      "category": "Beef",
+      "group": "Others",
+      "keywords": "牛",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fniuweitang.jpg?alt=media&token=6a0d673f-1d96-4b0f-bee7-1e44b6c671b6",
+      "procedure": "",
+      "createTime": 1691499258330,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 47
+    },
+    {
+      "title": "Thai Salad 泰式沙拉",
+      "author": "test7",
+      "category": "Veggies",
+      "group": "Fat Control",
+      "keywords": "沙拉 泰式",
+      "ingredients": "1. cooking mango 青芒果，胡萝卜，紫洋葱；香菜\n2. 鱼露、糖、柠檬汁",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fthaisalad.jpg?alt=media&token=f49b16fd-f2c5-4ce7-8d39-20f03996d2eb",
+      "procedure": "",
+      "createTime": 1691499419177,
+      "publishState": 1,
+      "publishTime": 1691499419177,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 48
+    },
+    {
+      "title": "Pan-fried Calamari 铁板鱿鱼",
+      "author": "test7",
+      "category": "Shellfish",
+      "group": "Grilled",
+      "keywords": "鱿鱼 ",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Ftiebanyouyu.jpg?alt=media&token=fbe2e48f-f8e4-416a-bf87-fed70027925a",
+      "procedure": "",
+      "createTime": 1691499550220,
+      "publishState": 0,
+      "publishTime": null,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 49
+    },
+    {
+      "title": "Pineapple Slush 菠萝冰沙",
+      "author": "test7",
+      "category": "Cold Drink",
+      "group": "Sweeties",
+      "keywords": "凤梨 菠萝 冰沙 slush",
+      "ingredients": "1. 冻菠萝\n2. 冰块\n3. 菠萝汁",
+      "mainImage": "https://firebasestorage.googleapis.com/v0/b/react-mykitchen-5ed64.appspot.com/o/Images%2Fpineapple%20slushi.jpg?alt=media&token=c9273541-56eb-4f2d-8996-f4821694c930",
+      "procedure": "<ol><li>三种原材料混合后用Vita Mix高速搅打混匀</li></ol>",
+      "createTime": 1691499686363,
+      "publishState": 1,
+      "publishTime": 1691499686363,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 50
+    },
+    {
+      "title": "Air-fried Pork Hook 烤猪蹄",
+      "author": "test7",
+      "category": "Pork",
+      "group": "Grilled",
+      "keywords": "猪蹄 猪脚 空气炸锅 卤猪蹄",
+      "ingredients": "1. 猪蹄；\n2. 冰糖，料酒，酱油膏，生抽，红腐乳汁；\n3. 葱姜，八角，香叶，孜然粉，烧烤料",
+      "procedure": "<ol><li>猪脚洗净后，冷水下锅，水开后继续煮5分钟，捞出，热水洗净，沥干水分；</li><li>热锅，冷油少许，放一勺冰糖，煮糖色；</li><li>倒入猪蹄翻炒，加料酒，一大勺酱油膏，两三圈生抽，1-2勺红腐乳汁，加入适量热水，以及八角香叶，大火烧开，试味道后再根据情况调整；</li><li>小火焖1个小时，捞出；</li><li>空气炸锅200度，在猪蹄上洒上足量的孜然粉和烧烤料，正面烤4-5分钟，翻面烤2分钟即可。</li></ol>",
+      "createTime": 1691745589232,
+      "publishState": 1,
+      "publishTime": 1691923504201,
+      "favoredBy": [],
+      "rates": [],
+      "comments": [],
+      "id": 51
+    }  
+  ],
+  "mealPlans": [
+    {
+      "author": "admin",
+      "id": "admin",
+      "allEvents": [
+        {
+          "Date": "2024-01-09",
+          "Breakfast": [
+            "Cumin Lamb 孜然羊肉, ",
+            "Stirfried Fish Slices 爆炒鱼片"
+          ],
+          "Lunch": null,
+          "Dinner": null
+        },
+        {
+          "Date": "2024-01-16",
+          "Breakfast": [
+            "Air-fried Pork Hook 烤猪蹄",
+            "Toasted Eels Rice 烤鳗鱼饭"
+          ],
+          "Lunch": null,
+          "Dinner": [
+            "Sour Bamboo Shoots Stir-fried Duck Giblet 酸笋炒鸭胗",
+            "Braised Chicken红烧鸡"
+          ]
+        },
+        {
+          "Date": "2024-01-10",
+          "Breakfast": [
+            ""
+          ],
+          "Lunch": [
+            ""
+          ]
+        },
+        {
+          "Date": "2024-02-27",
+          "Breakfast": null,
+          "Lunch": [
+            "French Country Bread 软欧包",
+            "Thai Salad "
+          ],
+          "Dinner": [
+            "Spicy Mix 麻辣烫",
+            "Pineapple Slush 菠萝冰沙"
+          ]
+        },
+        {
+          "Breakfast": [
+            "cooking rice with steaming egg"
+          ]
+        },
+        {
+          "Date": "2024-01-05",
+          "Breakfast": [
+            "steaming egg"
+          ],
+          "Lunch": null,
+          "Dinner": null
+        },
+        {
+          "Date": "2024-02-10",
+          "Breakfast": null,
+          "Lunch": null,
+          "Dinner": [
+            "Salmon sashimi",
+            " lobster",
+            " five cups duck"
+          ]
+        }
+      ]
+    }
+  ]
+}

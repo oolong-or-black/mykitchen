@@ -1,0 +1,82 @@
+
+.loginRequest {
+    flex:1;
+    color:white;
+    margin:0 10px;
+  }
+  
+  .loginRequest .clickSpan{
+    margin: 0 10px;
+    cursor: pointer;  
+  }
+  
+  .loginRequest .clickSpan:hover{
+    text-decoration: underline;
+  }
+  
+  .loginRequest .user{
+    font-size: 20px;
+  }
+  
+  .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+  }
+  
+  .ant-modal-title {
+    text-align:center ;
+  }
+  
+  .ant-tabs {
+    padding: 0 80px;
+  }
+  .ant-tabs-top >.ant-tabs-nav::before {
+    border-bottom: 1px solid rgba(5, 5, 5, 0.2)
+  }
+  
+  .ant-tabs .ant-tabs-tab{
+    padding: 12px 25px;
+  }
+  
+  .ant-tabs h4{
+    text-align: center;
+    margin-top: -10px;
+  }
+  
+  .ant-tabs .loginRequest .ant-input {
+    height: 50px;  
+  }
+  
+  .ant-tabs .loginRequest .ant-input::placeholder{
+    transition: all 0.2s ease;
+    transform-origin: top left;
+    color:rgb(63, 62, 62)
+  }
+  
+  .ant-tabs .loginRequest .ant-input:focus::placeholder{
+    transform:scale(0.8) translateY(-18px);
+    color:#0e3a78
+  }
+  
+  .ant-tabs .or-with-line{
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .ant-tabs .or-with-line b{
+    background-color: white;
+    padding: 0 12px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .ant-tabs .or-line{
+    position: absolute;
+    top:50%;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    border-bottom: 1px solid rgba(5, 5, 5, 0.2);
+  }
+  

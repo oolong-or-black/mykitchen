@@ -1,0 +1,249 @@
+@import '~antd/dist/reset.css';
+
+/* apply to all pages */
+ul {
+  list-style: none;
+}
+
+
+/* apply to layout settings */
+.root, .ant-layout {
+  width: 100vw;
+}
+
+.ant-layout-content {
+  width: 100%;
+  background-color: white;
+}
+
+.ant-layout-header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: rgba(0, 21, 41, 0.7);
+}
+
+.ant-layout-sider .ant-menu{
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ant-menu-dark {
+  background: rgba(0, 21, 41, 0.5);
+}
+
+.ant-layout-sider-children {
+  background-color: white;
+}
+
+.ant-modal-foot .ant-modal-mask {
+  background-color: transparent;
+}
+
+.ant-card:not(.ant-card-bordered) {
+  box-shadow: none;
+}
+
+.ant-pagination {
+  margin-top: 20px;
+}
+
+/* apply to the fixed top area in any page */
+.logo {
+  flex: 0.7;
+  width: 120px;
+  color: white;
+  font-size:20px;
+  font-weight: bolder;
+  text-justify: auto;
+  margin: 0 50px;
+}
+
+.ant-menu {
+  flex: 2.3
+}
+
+.searchwrap {
+  flex: 1.5;
+  padding: 16px 10px ; 
+}
+
+.loggedUser {
+  flex:1;
+  color:white;
+  margin:0 40px;
+  font-size: 20px;
+}
+
+.loggedUser .username {
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.loggedUser .username:hover {
+  text-decoration: underline;
+}
+
+.loggedUser .anticon-user {
+  color: rgb(146, 146, 239)
+}
+
+.userModal {
+  margin-top: -30px;
+  margin-right: 10%;
+}
+
+.userModal .ant-modal-content {
+  width: 250px; 
+  background-color: #4483d5;
+  position: absolute;
+  right: 0;
+}
+
+.userModal .ant-list {
+  border: none;
+}
+
+.userModal .ant-list-items li, .userModal .ant-list-items a{
+  color: white;
+}
+
+.userModal .ant-list-footer {
+  border-top: 1px solid white;  
+  margin-top: 10px;
+  color: white;
+}  
+
+.userModal .ant-modal-close {
+  color: white
+}
+
+
+/* style of ant Cards */
+.ant-card-meta {
+  text-align: center;
+}
+
+/* Home page display */
+#Home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+#Home .ant-card {
+  width:25%;
+}
+
+#Home .ant-card-cover {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#Home .ant-card-body{
+  width: 280px;
+  padding: 20px 0;
+}
+
+/* Collection page display */
+ #collectionPage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+ }  
+
+
+/*all related to Planner  */
+  /* Calender display */
+#calendar thead th{
+  font-weight: 700;
+  color: red;
+}  
+
+.dateCellRender {
+  color: black;
+  text-align: left; 
+  border: 1px dotted rgba(128, 128, 128,0.3); 
+  padding: 5px;
+  margin: 5px
+}
+
+.dateCellRender p{
+  color: blue;
+  font-weight: 700;
+  margin:0
+}
+
+.dateCellRender ul{
+  padding-left: 10px;
+}
+
+  /* MenuPicker */
+  .menuPicker{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menuPicker li{
+    flex: 30%
+  }
+  
+  #category-checkboxGroup .ant-checkbox-group {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding:0
+  }
+  
+  #category-checkboxGroup .ant-checkbox-group label{
+    width: 120px;
+    margin-left: 0;
+  }
+  
+  #category-checkboxGroup .ant-divider {
+    margin: 10px 0;
+  }
+
+  .menuView-modal .modal-image{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+
+/* Form inside Planner */
+#meals-ul .ant-form-item{
+  display: inline-block;
+  margin-left:8px;
+}
+
+#meals-ul label {
+  width:100px;
+}
+
+#Breakfast, #Lunch, #Dinner {
+  width: 600px;
+}
+
+.confirmButton {
+  position: absolute;
+  right: 50%;
+}
+
+
+/* 
+#Picker .ant-modal {
+  width:900px
+} 
+
+#collectionShow {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(29, 29, 28, 0.5);
+}
+*/
