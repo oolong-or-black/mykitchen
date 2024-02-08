@@ -14,9 +14,11 @@ export default function Planner() {
   const { loggedUser } = useSelector(state=>state.logOnStatus)
 
   useEffect(()=>{
-    axios.get(`/mealPlans/${loggedUser.username}`).then(res=>{
-      setAllEvents(res.data.allEvents)
-    })
+    if(loggedUser){
+      axios.get(`/mealPlans/${loggedUser.username}`).then(res=>{
+        setAllEvents(res.data.allEvents)
+      })
+    } 
   },[loggedUser])
   
   // **** all about Calendar...............
@@ -99,81 +101,88 @@ export default function Planner() {
  // ...............
   return (
     <>
-    {/* display calendar */}
-      <div style={wrapperStyle} id='calendar'>
-        <Calendar 
-          fullscreen={false} 
-          dateCellRender={value => <DateCellRender value={value} dataSource={allEvents} />} 
-          onSelect={onSelect}
-        />       
+      <div style={{display: loggedUser? 'none':'', font:'24px bold'}}>
+        Please log on or sign up first to access the function of meals planning !
       </div>
 
-    {/* plan the menu on the selected date */}
-      <div style={{marginTop:20}}>
-        <Form onFinish={onFinish} ref={mealPlan}>
-        {/* step 1 - select the specific date */}
-          <h4 style={{color:'grey'}}> Step 1:  &nbsp; select the date you want to plan your meals;</h4>          
-          <Space>
-            <span>Date: </span>   
-            <Form.Item name='Date'>
-                <Input style={{width:150}} value={selectedDate}/>
-            </Form.Item> 
-            <span style={{marginLeft:20, color:'grey'}}>Select the date from the above calendar </span>
-          </Space> 
+      <section style={{display:loggedUser? '':'none'}}>
+        {/* display calendar */}
+        <div style={wrapperStyle} id='calendar'>
+          <Calendar 
+            fullscreen={false} 
+            dateCellRender={value => <DateCellRender value={value} dataSource={allEvents} />} 
+            onSelect={onSelect}
+          />       
+        </div>
 
-        {/* step 2 - decide/select the menus for Breakfast/Lunch/Dinner of the specific date */}
-          <h4 style={{color:'grey'}}> Step 2:  &nbsp; click the checkbox &nbsp; <Checkbox></Checkbox> &nbsp; to decide which meal you want to plan;</h4>
-          <h4 style={{color:'grey'}}> 
-            Step 3: <p>&nbsp;&nbsp; click the <b style={{color:'blue'}}>Select</b> button to choose a course from the database;</p>
-            <p>&nbsp;&nbsp; or, just <b style={{color:'blue'}}>type</b> the courses' name you decide into the Input area. Always use <strong style={{color:'red'}}>","</strong> to separate different courses;</p>
-            <p>&nbsp;&nbsp; or, you could <i style={{color:'blue'}}>both</i> type and select.</p>
-          </h4>
-          <ul id='meals-ul'>
-            <li>
-              <Checkbox  value='Breakfast' checked={inputDisable.Breakfast}
-                onChange={(e)=>setInputDisable({...inputDisable, Breakfast:e.target.checked})} >Breakfast</Checkbox>
-              <Button type='primary' disabled={!inputDisable.Breakfast} onClick={()=>handleSelect('Breakfast')}>Select</Button>
-              <Form.Item name='Breakfast'>
-                <Input 
-                  disabled={!inputDisable.Breakfast} value={inputValues.Breakfast} 
-                  onChange={(e)=>setInputValues({...inputValues, Breakfast:e.target.value.split(',')})}
-                />           
-              </Form.Item>
-            </li>
-            <li>
-              <Checkbox  value='Lunch' checked={inputDisable.Lunch}
-                onChange={(e)=>setInputDisable({...inputDisable, Lunch:e.target.checked})} >Lunch</Checkbox>
-              <Button type='primary' disabled={!inputDisable.Lunch} onClick={()=>handleSelect('Lunch')}>Select</Button>
-              <Form.Item name='Lunch'>
+      {/* plan the menu on the selected date */}
+        <div style={{marginTop:20}}>
+          <Form onFinish={onFinish} ref={mealPlan}>
+          {/* step 1 - select the specific date */}
+            <h4 style={{color:'grey'}}> Step 1:  &nbsp; select the date you want to plan your meals;</h4>          
+            <Space>
+              <span>Date: </span>   
+              <Form.Item name='Date'>
+                  <Input style={{width:150}} value={selectedDate}/>
+              </Form.Item> 
+              <span style={{marginLeft:20, color:'grey'}}>Select the date from the above calendar </span>
+            </Space> 
+
+          {/* step 2 - decide/select the menus for Breakfast/Lunch/Dinner of the specific date */}
+            <h4 style={{color:'grey'}}> Step 2:  &nbsp; click the checkbox &nbsp; <Checkbox></Checkbox> &nbsp; to decide which meal you want to plan;</h4>
+            <h4 style={{color:'grey'}}> 
+              Step 3: <p>&nbsp;&nbsp; click the <b style={{color:'blue'}}>Select</b> button to choose a course from the database;</p>
+              <p>&nbsp;&nbsp; or, just <b style={{color:'blue'}}>type</b> the courses' name you decide into the Input area. Always use <strong style={{color:'red'}}>","</strong> to separate different courses;</p>
+              <p>&nbsp;&nbsp; or, you could <i style={{color:'blue'}}>both</i> type and select.</p>
+            </h4>
+            <ul id='meals-ul'>
+              <li>
+                <Checkbox  value='Breakfast' checked={inputDisable.Breakfast}
+                  onChange={(e)=>setInputDisable({...inputDisable, Breakfast:e.target.checked})} >Breakfast</Checkbox>
+                <Button type='primary' disabled={!inputDisable.Breakfast} onClick={()=>handleSelect('Breakfast')}>Select</Button>
+                <Form.Item name='Breakfast'>
                   <Input 
-                    disabled={!inputDisable.Lunch} value={inputValues.Lunch} 
-                    onChange={(e)=>setInputValues({...inputValues, Lunch:e.target.value})}
+                    disabled={!inputDisable.Breakfast} value={inputValues.Breakfast} 
+                    onChange={(e)=>setInputValues({...inputValues, Breakfast:e.target.value.split(',')})}
+                  />           
+                </Form.Item>
+              </li>
+              <li>
+                <Checkbox  value='Lunch' checked={inputDisable.Lunch}
+                  onChange={(e)=>setInputDisable({...inputDisable, Lunch:e.target.checked})} >Lunch</Checkbox>
+                <Button type='primary' disabled={!inputDisable.Lunch} onClick={()=>handleSelect('Lunch')}>Select</Button>
+                <Form.Item name='Lunch'>
+                    <Input 
+                      disabled={!inputDisable.Lunch} value={inputValues.Lunch} 
+                      onChange={(e)=>setInputValues({...inputValues, Lunch:e.target.value})}
+                    /> 
+                </Form.Item>
+              </li>            
+              <li>
+                <Checkbox  value='Dinner' checked={inputDisable.Dinner}
+                  onChange={(e)=>setInputDisable({...inputDisable, Dinner:e.target.checked})} >Dinner</Checkbox>
+                <Button type='primary' disabled={!inputDisable.Dinner} onClick={()=>handleSelect('Dinner')}>Select</Button>
+                <Form.Item name='Dinner'>
+                  <Input 
+                    disabled={!inputDisable.Dinner} value={inputValues.Dinner} 
+                    onChange={(e)=>setInputValues({...inputValues, Dinner:e.target.value})}
                   /> 
-              </Form.Item>
-            </li>            
-            <li>
-              <Checkbox  value='Dinner' checked={inputDisable.Dinner}
-                onChange={(e)=>setInputDisable({...inputDisable, Dinner:e.target.checked})} >Dinner</Checkbox>
-              <Button type='primary' disabled={!inputDisable.Dinner} onClick={()=>handleSelect('Dinner')}>Select</Button>
-              <Form.Item name='Dinner'>
-                <Input 
-                  disabled={!inputDisable.Dinner} value={inputValues.Dinner} 
-                  onChange={(e)=>setInputValues({...inputValues, Dinner:e.target.value})}
-                /> 
-              </Form.Item>
-            </li>
-          </ul>
+                </Form.Item>
+              </li>
+            </ul>
 
-        {/* confirm the plan */}
-          <Form.Item>
-            <Button className='confirmButton' type="primary" htmlType="submit" >
-              Confirm your meals plan
-            </Button>
-          </Form.Item> 
-        </Form>
-      </div> 
+          {/* confirm the plan */}
+            <Form.Item>
+              <Button className='confirmButton' type="primary" htmlType="submit" >
+                Confirm your meals plan
+              </Button>
+            </Form.Item> 
+          </Form>
+        </div> 
 
-    {/* when decide to choose a/some recipes from database */}
+      </section>
+
+      {/* when decide to choose a/some recipes from database */}
       <Modal
         open={isPickerOpen}
         onCancel={()=>setIsPickerOpen(false)}
