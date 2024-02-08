@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import {useSelector} from 'react-redux'
-import {Button, Modal, Table, Space} from 'antd'
+import { useSelector } from 'react-redux'
+import { Button, Modal, Table, Space } from 'antd'
 import axios from 'axios'
 import { ExclamationCircleOutlined }from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom'
@@ -48,7 +48,7 @@ export default function SharedRecipe() {
       title:'Title',
       key:'title',
       render: data=>
-        <span style={{cursor:'pointer'}} onClick={()=>navigate(`/members/mycontribution/view/${data.id}`)} >
+        <span style={{cursor:'pointer'}} onClick={()=>navigate(`/mykitchen/members/mycontribution/view/${data.id}`)} >
           {data.title}
         </span>
     },
@@ -74,7 +74,7 @@ export default function SharedRecipe() {
       title:'Action',
       key:'action',
       render: item=><Space>
-        <Button type='primary' onClick={()=>navigate(`/members/mycontribution/edit/${item.id}`)}>Edit</Button>
+        <Button type='primary' onClick={()=>navigate(`/mykitchen/members/mycontribution/edit/${item.id}`)}>Edit</Button>
         <Button danger onClick={()=>handleDel(item.id)}>Delete</Button>
       </Space>
     }

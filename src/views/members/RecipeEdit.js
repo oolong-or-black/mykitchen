@@ -1,8 +1,8 @@
 import React, { useEffect, useState , useRef} from 'react'
 import Editor from '../../components/Editor'
-import {useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
-import {Form, Input, Button, TreeSelect, Select,Space } from 'antd'
+import { Form, Input, Button, TreeSelect, Select,Space } from 'antd'
 import { ref, uploadBytesResumable, getDownloadURL } from '@firebase/storage'
 import Compressor from 'compressorjs'
 import { storage } from '../../config/firebase'
@@ -85,7 +85,7 @@ export default function RecipeEdit() {
         'rates':null,
         'comments':[]   
       }).then(res=>{
-        navigate(publishState? '/members/mycontribution/shared':'/members/mycontribution/draft')
+        navigate(publishState? '/mykitchen/members/mycontribution/shared':'/members/mycontribution/draft')
       })
     }).catch(err=>{
       console.log(err)

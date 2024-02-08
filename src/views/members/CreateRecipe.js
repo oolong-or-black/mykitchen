@@ -98,7 +98,7 @@ export default function CreateRecipe() {
         'rates':null,
         'comments':[]      
       }).then(res=>{
-        navigate(publishState? '/members/mycontribution/shared':'/members/mycontribution/draft')
+        navigate(publishState? '/mykitchen/members/mycontribution/shared':'/members/mycontribution/draft')
       })
     }).catch(err=>{
       console.log(err)

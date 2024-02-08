@@ -9,14 +9,14 @@ import Search from '../views/sandbox/Search'
 export default function indexRouter() {
   return (
     <Routes>
-        <Route path='/collections' element={<Collection/>} />
-        <Route path='/planner' element={<Planner/>}/>
-        <Route path='/members/*' element={<Member/>}/>
-        <Route path='/groups/*' element={<Group/>} />
-        <Route path='/home' element={<Home/>}/>
-        <Route path='/search' element={<Search />} />
-        <Route path='/' element={<Navigate to='/home'/>}/> 
-        <Route path='/*' element={<Navigate to='/home'/>}/> 
+        <Route path='/mykitchen/collections' element={<Collection/>} />
+        <Route path='/mykitchen/planner' element={<Planner/>}/>
+        <Route path='/mykitchen/members/*' element={<Member/>}/>
+        <Route path='/mykitchen/groups/*' element={<Group/>} />
+        <Route path='/mykitchen/home' element={<Home/>}/>
+        <Route path='/mykitchen/search' element={<Search />} />
+        <Route path='/mykitchen/' element={<Navigate to='/home'/>}/> 
+        <Route path='/mykitchen/*' element={<Navigate to='/home'/>}/> 
     </Routes>
   )
 }

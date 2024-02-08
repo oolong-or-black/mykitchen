@@ -14,7 +14,6 @@ export default function MyFavorites() {
   useEffect(()=>{
     axios.get('/recipes').then(res=>{
         let list = res.data.filter(item=>item.favoredBy.includes(loggedUser.username))
-        console.log(list)
         setRecipeList(list)
     })
   },[loggedUser])
@@ -37,7 +36,7 @@ export default function MyFavorites() {
       key: 'title',
       width: 650,
       render: data=>
-        <span style={{cursor:'pointer'}} onClick={()=>navigate(`/members/myfavorites/view/${data.id}`)} >
+        <span style={{cursor:'pointer'}} onClick={()=>navigate(`/mykitchen/members/myfavorites/view/${data.id}`)} >
             {data.title}
         </span>
     },

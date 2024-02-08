@@ -38,24 +38,24 @@ export default function PageHeader() {
     })
     dispatch(getRecipeSearch(list))
     dispatch(getSearchName(text))
-    navigate(`/search?${text}`) 
+    navigate(`/mykitchen/search?${text}`) 
   }
 
   const menuItems = [
     {
-      key: '/home',
+      key: '/mykitchen/home',
       label: 'Home'      
     },
     {
-      key: '/collections',
+      key: '/mykitchen/collections',
       label: 'Collections'
     },
     {
-      key: '/planner',
+      key: '/mykitchen/planner',
       label:'Planner'
     },
     {
-      key: '/members',
+      key: '/mykitchen/members',
       label: 'Members'
     }
   ] 

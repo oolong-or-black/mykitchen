@@ -23,17 +23,17 @@ export default function LoggedUser() {
     {
       icon: <UserOutlined />,
       description: 'MY PROFILE',
-      path:'/members/myprofile'
+      path:'/mykitchen/members/myprofile'
     },
     {
       icon: <DatabaseOutlined /> ,
       description: 'MY CONTRIBUTION',
-      path:'/members/mycontribution/shared'
+      path:'/mykitchen/members/mycontribution/shared'
     },
     {
       icon: <HeartOutlined />,
       description: 'MY FAVORITES',
-      path:'/members/myfavorites'
+      path:'/mykitchen/members/myfavorites'
     }
   ]
 

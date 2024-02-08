@@ -11,27 +11,27 @@ export default function Group() {
   const navigate = useNavigate()
   const items = [
     {
-        key:'/groups/Fast%20Food',
+        key:'/mykitchen/groups/Fast%20Food',
         label:'Fast Food',
     },
     {
-        key:'/groups/Fat%20Control',
+        key:'/mykitchen/groups/Fat%20Control',
         label:'Fat Control'
     },
     {
-        key:'/groups/Spicy%20Food',
+        key:'/mykitchen/groups/Spicy%20Food',
         label: 'Spicy Food'
     },
     {
-        key:'/groups/Noddles',
+        key:'/mykitchen/groups/Noddles',
         label: 'Noddles'
     },
     {
-        key:'/groups/Grilled',
+        key:'/mykitchen/groups/Grilled',
         label: 'The Grilled'
     },
     {
-        key:'/groups/Sweeties',
+        key:'/mykitchen/groups/Sweeties',
         label:'Sweeties'
     }
   ]  

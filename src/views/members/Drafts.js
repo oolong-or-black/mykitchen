@@ -33,14 +33,14 @@ export default function Drafts() {
       publishState:1,
       publishTime:Date.now()
     })
-    navigate('/members/mycontribution/shared')
+    navigate('/mykitchen/members/mycontribution/shared')
   }
   const columns = [
     {
       title:'Title',
       key:'title',
       render: data=>
-        <span style={{cursor:'pointer'}} onClick={()=>navigate(`/members/mycontribution/view/${data.id}`)} >
+        <span style={{cursor:'pointer'}} onClick={()=>navigate(`/mykitchen/members/mycontribution/view/${data.id}`)} >
           {data.title}
         </span>
     },
@@ -48,7 +48,6 @@ export default function Drafts() {
       title:'Category',
       dataIndex:'category',
       key:'category',
-      render:item=><span>{item.title}</span>
     },
     {
       title:'Key Words',
@@ -59,7 +58,7 @@ export default function Drafts() {
       title:'Actions',
       key:'action',
       render:(item)=>(<Space size='middle'>
-        <Button type='default' onClick={()=>navigate(`/members/mycontribution/edit/${item.id}`)}>Edit</Button>
+        <Button type='default' onClick={()=>navigate(`/mykitchen/members/mycontribution/edit/${item.id}`)}>Edit</Button>
         <Button danger onClick={()=>handleDel(item.id)}>Delete</Button>
         <Button type='primary' onClick={()=>handlePublish(item.id)}>Publish</Button>
       </Space>)

@@ -41,10 +41,5 @@ export default function Courses() {
         <DisplayView recipeList={recipeList}/>
       </Content>
     </Layout>  
-
-     
-      
-
-   
   )
 }

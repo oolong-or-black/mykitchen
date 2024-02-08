@@ -5,7 +5,7 @@ import Compressor from 'compressorjs'
 import { ref, uploadBytesResumable, getDownloadURL } from '@firebase/storage'
 import { storage } from '../../config/firebase'
 import { useState } from 'react'
-import {useDispatch} from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { avatarUrlUpdate } from '../../redux/logOnStatusSlice'
 
 export default function MyProfile() {

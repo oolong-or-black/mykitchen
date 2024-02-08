@@ -15,29 +15,29 @@ export default function Member() {
 
   const items =[
     {
-      key: '/members/myprofile',
+      key: '/mykitchen/members/myprofile',
       label: 'MY PROFILE'
     },
     {
-      key: '/members/mycontribution',
+      key: '/mykitchen/members/mycontribution',
       label: 'MY CONTRIBUTION',
       children:[
         {
-          key: '/members/mycontribution/create',
+          key: '/mykitchen/members/mycontribution/create',
           label: 'Create new recipe'
         },
         {
-          key: '/members/mycontribution/draft',
+          key: '/mykitchen/members/mycontribution/draft',
           label: 'Drafts of my recipes'
         },
         {
-          key: '/members/mycontribution/shared',
+          key: '/mykitchen/members/mycontribution/shared',
           label: 'Shared of my recipes'
         }
       ]
     },
     {
-      key: '/members/myfavorites',
+      key: '/mykitchen/members/myfavorites',
       label: 'MY FAVORITES'
     }
   ]
@@ -47,9 +47,9 @@ export default function Member() {
       <Sider>
         <Menu 
           items={items} 
-          defaultSelectedKeys={'/members/myprofile'} 
+          defaultSelectedKeys={'/mykitchen/members/myprofile'} 
           onClick={(item)=>navigate(item.key)} 
-          openKeys={'/members/mycontribution'}
+          openKeys={'/mykitchen/members/mycontribution'}
           mode='inline'
         />
       </Sider>
