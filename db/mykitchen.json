@@ -724,7 +724,7 @@
       "publishState": 0,
       "publishTime": null,
       "favoredBy": [
-        "admin2"
+        "test7"
       ],
       "rates": [],
       "comments": [],
@@ -1096,7 +1096,7 @@
   "mealPlans": [
     {
       "author": "admin",
-      "id": "admin",
+      "id": "test7",
       "allEvents": [
         {
           "Date": "2024-01-09",

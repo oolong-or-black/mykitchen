@@ -15,8 +15,8 @@ export default function indexRouter() {
         <Route path='/mykitchen/groups/*' element={<Group/>} />
         <Route path='/mykitchen/home' element={<Home/>}/>
         <Route path='/mykitchen/search' element={<Search />} />
-        <Route path='/mykitchen/' element={<Navigate to='/home'/>}/> 
-        <Route path='/mykitchen/*' element={<Navigate to='/home'/>}/> 
+        <Route path='/mykitchen/' element={<Navigate to='/mykitchen/home'/>}/> 
+        <Route path='/mykitchen/*' element={<Navigate to='/mykitchen/home'/>}/> 
     </Routes>
   )
 }
