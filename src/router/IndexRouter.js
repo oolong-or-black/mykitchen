@@ -13,9 +13,9 @@ export default function indexRouter() {
         <Route path='/planner/*' element={<Planner/>}/>
         <Route path='/members/*' element={<Member/>}/>
         <Route path='/groups/*' element={<Group/>} />
-        <Route path='/home/*' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/search' element={<Search />} />
-        <Route path='/' element={<Navigate to='/home/'/>} /> 
+        <Route path='/' element={<Navigate to='/home'/>} /> 
     </Routes>
   )
 }
