@@ -132,6 +132,10 @@ export default function LoginRequest() {
     }
   ]  
 
+  const onChange = (key)=>{
+    setKey(key)
+  }
+  
   return (
     <>
       <div className='loginRequest'>
@@ -145,6 +149,7 @@ export default function LoginRequest() {
           centered
           activeKey={key}
           items={tabsItems}
+          onChange={onChange}
         />
       </Modal>    
     </>
