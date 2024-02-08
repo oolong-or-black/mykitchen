@@ -41,7 +41,7 @@ export default function LoggedUser() {
     dispatch(closeModal())
     localStorage.removeItem('token')
     dispatch(userLogOff())
-    navigate('/home')
+    navigate('/mykitchen/home')
   }
 
   const UserImage = (
