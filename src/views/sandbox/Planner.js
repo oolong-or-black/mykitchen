@@ -75,9 +75,9 @@ export default function Planner() {
       let events = allEvents.filter(item=>item.Date!==selectedDate)
       let newEvent = {
         Date: selectedDate,
-        Breakfast: typeof(res.Breakfast) === 'string' ? res.Breakfast.split(',' && '，'):res.Breakfast,
-        Lunch: typeof(res.Lunch) === 'string' ? res.Lunch.split(',' && '，'):res.Lunch,
-        Dinner: typeof(res.Dinner) === 'string' ? res.Dinner.split(',' && '，'):res.Dinner
+        Breakfast: typeof(res.Breakfast) === 'string' ? res.Breakfast.replace('，',',').split(',' ):res.Breakfast,
+        Lunch: typeof(res.Lunch) === 'string' ? res.Lunch.replace('，',',').split(','):res.Lunch,
+        Dinner: typeof(res.Dinner) === 'string' ? res.Dinner.replace('，',',').split(','):res.Dinner
       }
       if(allEvents.length){
         axios.patch(`/mealPlans/${loggedUser.username}`,{     
