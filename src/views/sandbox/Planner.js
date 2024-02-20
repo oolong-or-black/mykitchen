@@ -15,8 +15,13 @@ export default function Planner() {
 
   useEffect(()=>{
     if(loggedUser){
-      axios.get(`/mealPlans/${loggedUser.username}`).then(res=>{
-        setAllEvents(res.data.allEvents)
+      axios.get('/mealPlans').then(res=>{
+        let user = res.data.filter(item=>item.id === loggedUser.username)
+        if(user.length){
+          axios.get(`/mealPlans/${loggedUser.username}`).then(res=>{
+            setAllEvents(res.data.allEvents)
+          })
+        }
       })
     } 
   },[loggedUser])
@@ -70,20 +75,29 @@ export default function Planner() {
       let events = allEvents.filter(item=>item.Date!==selectedDate)
       let newEvent = {
         Date: selectedDate,
-        Breakfast: typeof(res.Breakfast) === 'string' ? res.Breakfast.split(','):res.Breakfast,
-        Lunch: typeof(res.Lunch) === 'string' ? res.Lunch.split(','):res.Lunch,
-        Dinner: typeof(res.Dinner) === 'string' ? res.Dinner.split(','):res.Dinner
+        Breakfast: typeof(res.Breakfast) === 'string' ? res.Breakfast.split(',' && '，'):res.Breakfast,
+        Lunch: typeof(res.Lunch) === 'string' ? res.Lunch.split(',' && '，'):res.Lunch,
+        Dinner: typeof(res.Dinner) === 'string' ? res.Dinner.split(',' && '，'):res.Dinner
       }
-      axios.patch(`/mealPlans/${loggedUser.username}`,{     
-        allEvents: [
-        ...events,
-        newEvent
-        ]      
-      }).then(res=>setAllEvents(res.data.allEvents))
+      if(allEvents.length){
+        axios.patch(`/mealPlans/${loggedUser.username}`,{     
+          allEvents: [
+          ...events,
+          newEvent
+          ]      
+        }).then(res=>setAllEvents(res.data.allEvents))
+      } else {
+        axios.post('/mealPlans', {
+          id: loggedUser.username,
+          author: loggedUser.username,
+          allEvents:[ newEvent ] 
+        }).then(res=>setAllEvents(res.data.allEvents))
+      }
       mealPlan.current.resetFields()
       setInputDisable({Breakfast:false, Lunch:false,Dinner:false})
       setInputValues({Breakfast:[], Lunch:[], Dinner:[]})
-  })}
+    })
+  }
  // ...............
 
  //  ****** all about the modal --MenuPicker ...............
